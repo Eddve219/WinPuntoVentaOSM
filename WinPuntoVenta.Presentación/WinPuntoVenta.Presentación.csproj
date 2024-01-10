@@ -76,5 +76,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WinPuntoVenta.Entidades\WinPuntoVenta.Entidades.csproj">
+      <Project>{3e5f88d5-b0ef-4606-b4e6-4d66ca58e3dc}</Project>
+      <Name>WinPuntoVenta.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WinPuntoVenta.Negocio\WinPuntoVenta.Negocio.csproj">
+      <Project>{4f59c57a-31cb-41d5-9b73-7d2cf2bc24c1}</Project>
+      <Name>WinPuntoVenta.Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
